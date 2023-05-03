@@ -1,9 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
 }
 
-/* section 1 */
+/* section 1 - header */
+.header{
+    background-color: #1f2937;
+    color:white;
+}
 .logo{
     font-weight: bolder;
-    font-size: 48px;
+    font-size: 24px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.landing{
+    background-color: pink;
+}
+
+
+
+
+/* section 2 -photo*/
+.main{
+    background-color: powderblue;
+}
+
+/* secion 3 - quote */
+.quote{
+    background-color: teal;
+}
+
+/* section 4 - call to action */
+.action{
+    background-color: brown;
+}
+
+/* section 5-footer */
+.footer{
+    background-color: slateblue;
 }
