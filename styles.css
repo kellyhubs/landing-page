@@ -9,10 +9,13 @@ body{
     flex-direction: column;
 }
 
-/* section 1 - header */
+/* section 1 */
+
+/* nav bar */
 .header{
     background-color: #1f2937;
-    color:white;
+    color: #F9FAF8;
+    padding: 1em 13em;
 }
 .logo{
     font-weight: bolder;
@@ -21,8 +24,8 @@ body{
 
 .navbar{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 ul{
@@ -33,14 +36,60 @@ ul{
 
 a{
     text-decoration: none;
-    color: white;
+    color:  #F9FAF8;
+    font: 18px;
 }
 
-.landing{
-    background-color: pink;
+/* header  */
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 0;
 }
 
 
+
+/* header left */
+.welcome .landing{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* header right */
+.welcome .landing-right{
+    flex-shrink: 0;
+    width: 50%;
+}
+
+.landing .hero{
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+
+button{
+    padding: 7px 1em;
+    width: 120px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+/* header button  */
+.welcome button{
+    border:none;
+}
+
+/* header img */
+.landing-right .imgone{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 13em;
+}
 
 
 /* section 2 -photo*/
