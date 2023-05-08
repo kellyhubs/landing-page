@@ -54,7 +54,7 @@ a{
 .welcome .landing{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 /* header right */
@@ -92,22 +92,111 @@ button{
 }
 
 
-/* section 2 -photo*/
+
+/* section 2 -information/photo*/
 .main{
-    background-color: powderblue;
+    background-color: #F9FAF8;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 13em;
 }
+
+.main h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    gap: 50px;
+    margin: 3em 0 6em 0;
+}
+
+.card{
+    max-width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+}
+.card p{
+    text-align: center;
+    
+}
+
+
 
 /* secion 3 - quote */
 .quote{
-    background-color: teal;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7em 13em;
+    background-color: #E5E7EB;
 }
 
-/* section 4 - call to action */
+.quote em{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 100;
+}
+
+.quote p{
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #1f2937;
+}
+
+
+
+/* section 4 - call to action/signup */
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 13em;
+}
+
 .action{
-    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3em;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #fff;
+}
+
+.action-right button{
+    border: 2px solid #F9FAF8
+}
+
+strong{
+    font-size: 24px;
 }
 
 /* section 5-footer */
 .footer{
-    background-color: slateblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 0;
+    background-color: #1f2937;
+    color: white;
 }
